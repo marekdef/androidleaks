@@ -3,8 +3,9 @@
           package="pl.mobilla.androidleaks"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="7"/>
-    <application android:label="@string/app_name">
+    <uses-sdk android:minSdkVersion="8"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name="LeakListActivity"
                   android:label="@string/app_name">
             <intent-filter>
@@ -34,6 +35,14 @@
         <activity android:name=".security.SharedPrefsLeak"/>
         <activity android:name=".security.StringEncryption"/>
         <activity android:name=".HandlerLeak"/>
+        <activity android:name=".ThreadLeak"/>
+        <activity android:name=".StaticLeak"/>
+        <activity android:name=".lvl.LVLActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <receiver android:name=".security.BroadcastLeak">
             <intent-filter>
                 <action android:name="pl.mobilla.androidleaks.security"/>

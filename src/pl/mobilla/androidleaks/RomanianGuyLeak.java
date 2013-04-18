@@ -16,16 +16,16 @@ public class RomanianGuyLeak extends Activity {
     private static Drawable sBackground;
 
     public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);
 
-            TextView label = new TextView(this);
-            label.setText("Leaks are bad");
+        TextView label = new TextView(this);
+        label.setText("Leaks are bad");
 
-            if (sBackground == null) {
-                sBackground = getResources().getDrawable(R.drawable.android);
-            }
-            label.setBackgroundDrawable(sBackground);
-
-            setContentView(label);
+        if (sBackground == null) {
+            sBackground = getResources().getDrawable(R.drawable.android);
         }
+        label.setBackgroundDrawable(sBackground);
+
+        setContentView(label);
+    }
 }

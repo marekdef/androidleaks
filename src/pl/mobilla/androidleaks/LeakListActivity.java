@@ -28,6 +28,7 @@ public class LeakListActivity extends ListActivity {
         arrayAdapter.add(BitmapOptimizedLeak.class);
         arrayAdapter.add(ContentProviderLeak.class);
         arrayAdapter.add(HandlerLeak.class);
+        arrayAdapter.add(ThreadLeak.class);
 
 
         getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
