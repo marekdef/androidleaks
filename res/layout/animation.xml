@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/white">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewAndroid" android:layout_gravity="center" android:src="@drawable/android"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewBlackDrop" android:layout_gravity="center" android:src="@drawable/blackdrop"
+    />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewBlackWrench" android:layout_gravity="center" android:src="@drawable/wrench"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewBlackScrewdriver" android:layout_gravity="center" android:src="@drawable/screwdriver"/>
+</FrameLayout>
