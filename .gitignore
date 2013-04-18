@@ -22,3 +22,6 @@ local.properties
 #.idea
 .idea/
 out/
+
+#proguard
+proguard_logs
