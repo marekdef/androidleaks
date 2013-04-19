@@ -20,11 +20,8 @@
         </activity>
         <activity android:name=".DialogActivity"/>
         <activity android:name=".RomanianGuyLeak"/>
-        <activity android:name=".BitmapLeak">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-            </intent-filter>
-        </activity>
+        <activity android:name=".BitmapLeak"/>
+        <activity android:name=".BitmapOptimizedLeak"/>
         <activity android:name=".ContentProviderLeak"/>
         <activity android:name=".security.SecurityLeaks">
             <intent-filter>
