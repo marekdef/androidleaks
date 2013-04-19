@@ -64,7 +64,7 @@ public class BitmapOptimizedLeak extends Activity {
 
     private int getScaleFactor(int outWidth, int outHeight, int width, int height) {
         int scale = 1;
-        while(outWidth > width * scale && outHeight > height * scale) {
+        while(outWidth > width * scale || outHeight > height * scale) {
             scale *= 2;
         }
         return scale;
